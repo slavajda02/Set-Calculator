@@ -16,7 +16,7 @@ enum returnvalue {true, false};
 
 int main(int argc, char** argv)
 {
-    int pocetsouboru = 0;
+    int pocetsouboru;
     if(argc > 1)
     {
         pocetsouboru = argc-1;
